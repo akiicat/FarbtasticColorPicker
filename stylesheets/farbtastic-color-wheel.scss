@@ -1,0 +1,38 @@
+$container: 400px;
+$slider: 20px;
+$slider-border: 3px;
+
+@mixin abs-center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.color-container {
+  @include abs-center;
+  width: $container;
+  height: $container;
+  background-color: #333333;
+
+  .color-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .slider-wrapper {
+    @include abs-center;
+  }
+
+  .slider-button {
+    position: absolute;
+    width: $slider;
+    height: $slider;
+    background-color: rgba(0,0,0,0.2);
+    border: $slider-border solid #FFFFFF;
+    border-radius: $slider;
+  }
+}
