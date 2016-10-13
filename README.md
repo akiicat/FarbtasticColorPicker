@@ -29,7 +29,7 @@ color picker html
 
 ## Color Picker Size
 
-color picker and slider's variable
+color picker and slider variable
 
 ```scss
 $container: 400px;
@@ -56,3 +56,7 @@ function colorChange(){
 
 - [Codepen](http://codepen.io/AkiiCat/pen/LRQXYd/)
 - [Codepen Full Page](http://codepen.io/AkiiCat/full/LRQXYd/)
+
+## Preview
+
+![FarbtasticColorWheel](images/color-wheel.png)
