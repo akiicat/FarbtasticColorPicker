@@ -35,15 +35,18 @@ $(window).resize(function(){
 $(window).mouseup(function (e) {
   clickWheel = false;
   clickRect = false;
+  $(document).enableSelection();
 })
 
 sliderWheel.mousedown(function (e) {
   clickWheel = true;
+  $(document).disableSelection();
   wheelController(e);
 });
 
 sliderRect.mousedown(function (e) {
   clickRect = true;
+  $(document).disableSelection();
   rectController(e);
 })
 
