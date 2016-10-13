@@ -1,9 +1,10 @@
 # FarbtasticColorPicker
 
-Download and Add `farbtastic-color-wheel.js` `farbtastic-color-wheel.css` to your html.
+`jQuery` needed and add `farbtastic-color-wheel.js` `farbtastic-color-wheel.css` to your html.
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 <script src="javascripts/farbtastic-color-wheel.js"></script>
 <link rel="stylesheet" type="text/css" href="stylesheets/farbtastic-color-wheel.css">
 ```
@@ -28,7 +29,7 @@ color picker html
 
 ## Color Picker Size
 
-color picker size variable
+color picker and slider's variable
 
 ```scss
 $container: 400px;
@@ -51,11 +52,7 @@ function colorChange(){
 }
 ```
 
-## Preview
-
-![ColorWheel](/images/color-wheel.png)
-
 ## Demo page
 
-[Codepen](http://codepen.io/AkiiCat/pen/LRQXYd/)
-[Codepen Full Page](http://codepen.io/AkiiCat/full/LRQXYd/)
+- [Codepen](http://codepen.io/AkiiCat/pen/LRQXYd/)
+- [Codepen Full Page](http://codepen.io/AkiiCat/full/LRQXYd/)
