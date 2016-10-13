@@ -1,0 +1,2 @@
+# FarbtasticColorPicker
+Farbtastic color picker
